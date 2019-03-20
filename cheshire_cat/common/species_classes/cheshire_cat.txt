@@ -54,6 +54,13 @@ MAM = {
 		}
 	}
 	
+	custom_portraits = {#add additional portraits when customizing species
+		trigger = {	always = yes }
+		portraits = {
+			"cheshcatgirl"
+		}
+	}
+	
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
         "mam_rat"
