@@ -1,0 +1,5 @@
+portraits = {
+	cheshcatgirl = {
+		texturefile = "gfx/models/portraits/cheshire_catgirl.dds"
+	}
+}
