@@ -6,4 +6,4 @@ tags={
 }
 picture="cheshire_cat.png"
 remote_file_id="1688149833"
-supported_version="2.3.*"
+supported_version="2.6.*"
