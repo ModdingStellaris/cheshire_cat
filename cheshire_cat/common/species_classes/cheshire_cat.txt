@@ -1,6 +1,6 @@
 # Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
 # graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
-# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file.
 # playable=(yes/no)/trigger, default is yes, if this species class can is playable
 # randomized=(yes/no)/trigger, default is yes, if this species class is randomized
 # custom_portraits
@@ -25,7 +25,7 @@ MAM = {
 		"mam9"
 		"mam11"
 		"mam6"
-		"mam3"	
+		"mam3"
 		"mam12"
 		"mam7"
 		"mam15"
@@ -35,15 +35,15 @@ MAM = {
 		"mam16"
 		"mam_rat"
 	}
-	
+
 	custom_portraits = {#add additional portraits when customizing species
-		randomized = { 
-			OR = { 
+		randomized = {
+			OR = {
 				host_has_dlc = "Creatures of the Void Portrait Pack"
 				host_has_dlc = "Anniversary Portraits"
 			}
 		}
-		playable = { 
+		playable = {
 			OR = {
 				local_has_dlc = "Creatures of the Void Portrait Pack"
 				local_has_dlc = "Anniversary Portraits"
@@ -53,19 +53,12 @@ MAM = {
 			"mam17"
 		}
 	}
-	
-	custom_portraits = {#add additional portraits when customizing species
-		trigger = {	always = yes }
-		portraits = {
-			"cheshcatgirl"
-		}
-	}
-	
+
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
         "mam_rat"
     }
-	
+
 	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 
